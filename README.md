@@ -17,10 +17,10 @@
     <td align="center"><a href="https://github.com/JunJI97"><img src="https://avatars.githubusercontent.com/JunJI97" width="130px;" alt=""></a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/jinny-l"><b>구경덕</b></a></td>
-    <td align="center"><a href="https://github.com/HyowonSin"><b>고석주</b></a></td>
+    <td align="center"><a href="https://github.com/rnrudejr9"><b>구경덕</b></a></td>
+    <td align="center"><a href="https://github.com/SeokJuGo"><b>고석주</b></a></td>
     <td align="center"><a href="https://github.com/jaea-kim"><b>김영진</b></a></td>
-    <td align="center"><a href="https://github.com/JeonHyoChang"><b>지준영</b></a></td>
+    <td align="center"><a href="https://github.com/JunJI97"><b>지준영</b></a></td>
   </tr>
   <tr> 
     <td align="center"><img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"></td>
@@ -35,7 +35,12 @@
 	    <ul><li> 목표</li></ul>
 	    <ul><li> 목표</li></ul>
 	</td>
-    <td align="center"></td>
+    <td align="center">
+	    <ul><li>Daily 스트릭으로 코드 연습</li></ul>
+	    <ul><li>자바 라이브러리 숙달</li></ul>
+	    <ul><li>백준 기초 알고리즘 1,2, 중급 클리어하기</li></ul>
+	    <ul><li>골드1달성하기</li></ul>
+    </td>
     <td align="center"></td>
     <td align="center"></td>
   </tr> 
