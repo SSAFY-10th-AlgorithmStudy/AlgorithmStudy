@@ -30,10 +30,10 @@
   </tr> 
     <tr> 
     <td align="center">
-	    <ul><li> 목표</li></ul>
-	    <ul><li> 목표</li></ul>
-	    <ul><li> 목표</li></ul>
-	    <ul><li> 목표</li></ul>
+	    <ul><li>하루에 최소 1개문제 풀기</li></ul>
+	    <ul><li>깃허브, 백준 잔디 기르기</li></ul>
+	    <ul><li>solved.ac 골드1 달성</li></ul>
+	    <ul><li>천천히 꾸준히 도전하기</li></ul>
 	</td>
     <td align="center">
 	    <ul><li>매일 꾸준히 스트릭하기</li></ul>
