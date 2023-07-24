@@ -36,9 +36,9 @@
 	    <ul><li> 목표</li></ul>
 	</td>
     <td align="center">
-	    <ul><li>매일 꾸준히 스트릭하기</li></ul>
-	    <ul><li>자바라이브러리 익숙해지기</li></ul>
-	    <ul><li>백준 기초 알고리즘 1,2 끝내기</li></ul>
+	    <ul><li>Daily 스트릭으로 코드 연습</li></ul>
+	    <ul><li>자바 라이브러리 숙달</li></ul>
+	    <ul><li>백준 기초 알고리즘 1,2, 중급 클리어하기</li></ul>
 	    <ul><li>골드1달성하기</li></ul>
     </td>
     <td align="center"></td>
