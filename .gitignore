@@ -1,1 +1,6 @@
 /bin/
+
+#ecplise Core
+.project
+
+.classpath
