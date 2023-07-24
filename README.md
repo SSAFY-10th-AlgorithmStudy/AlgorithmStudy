@@ -2,6 +2,11 @@
 ## 스터디 방향성 및 목표
 > SSAFY 10기 15반 스터디 Org
 
+## 목차
+1. [Members 및 진행방식](#Members)
+2. [진행상황](#진행상황)
+3. [스터디방법](#스터디-방법)
+
 ### Members
 
 <table>
@@ -28,35 +33,42 @@
 <br>
 <br>
 
-
+### 진행 방식
 <table>
   <tr>
     <td>진행 기간</td>
-    <td>2023년 2월 20일 ~ ing </td>
+    <td>2023년 7월 24일 ~ ing </td>
   </tr>
   <tr>
     <td>스터디 장소</td>
-    <td>선릉역, 강남역</td>
+    <td>Online / 멀티캠퍼스 역삼</td>
   </tr>
   <tr>
     <td>정기 스터디 시간</td>
-    <td>일요일 13:30 ~ 16:30 [3h] &rarr; <a href="https://github.com/CodeSquad-2023-BE-Study/Algorithm-Study/wiki/%EB%AA%A8%EC%9E%84-%EC%9D%BC%EC%A0%95"><b>일정 확인</b></a></td>
+    <td>Online : 월 / 화 / 수 Offline : 금 07시 30분</td>
   </tr>
   <tr>
     <td>플랫폼</td>
-    <td>백준, 프로그래머스</td>
+    <td>백준 / solved.ac</td>
   </tr>
   <tr>
     <td>언어</td>
     <td><img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"> 
-        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-    </td>
   </tr>
 </table>
 
 <br/>
 
-## 커밋 규칙
+## 진행상황
+
+|   주차    |      날짜       | 구경덕 | 고석주 | 김영진 | 지준영 | 
+|:-------:|:-------------:|:-------:|:---------:|:--------:|:------------:|
+| week_01 | 02-20 ~ 02-26 |    / 3    |     / 3     |    / 3     |      / 3      |
+
+
+## 스터디 방법
+
+### 커밋 규칙
 
 | Type | 내용 |
 |--|--|
@@ -76,22 +88,21 @@ solved : P_피보나치수열_1103 해결
 재귀함수 방식으로 접근하여 해결
 ```
 
-## 디렉토리 구조
+### 디렉토리 구조
 
 * N : 해당일 수
 * `본인별명`.`weekN`.`dayN` 순으로 디렉토리를 구성한다.
 
-## 파일명
+### 파일명
 
 * `P` _ `문제이름` _	`문제번호`  순으로 작성한다.
 예시) P_피보나치함수_1003
 
 * 문제이름은 공백없이 붙여서 작성한다.
 
-## 깃 브랜치 구조
+### 깃 브랜치 구조
 
 solved Merge master
-
 | 브랜치 명 | 포함될 내용 | 비고 |
 |:----------|:----------:|----------:|
 | master | 메인브랜치 |  |
