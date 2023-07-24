@@ -42,7 +42,12 @@
 	    <ul><li>골드1달성하기</li></ul>
     </td>
     <td align="center"></td>
-    <td align="center"></td>
+    <td align="center">
+	    <ul><li> 백준 골드 입성</li></ul>
+	    <ul><li> 주요 라이브러리 적응</li></ul>
+	    <ul><li> 삼성 기출 풀이시간 단축(3h)</li></ul>
+	    <ul><li> B형 도전하기</li></ul>
+    </td>
   </tr> 
 </table>
 
