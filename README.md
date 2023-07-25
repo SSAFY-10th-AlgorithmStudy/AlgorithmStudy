@@ -13,13 +13,13 @@
  <tr>
     <td align="center"><a href="https://github.com/rnrudejr9"><img src="https://avatars.githubusercontent.com/rnrudejr9" width="130px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/SeokJuGo"><img src="https://avatars.githubusercontent.com/SeokJuGo" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/JunJI97"><img src="https://avatars.githubusercontent.com/JunJI97" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/JunJI97"><img src="https://avatars.githubusercontent.com/y0ungKim" width="130px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/JunJI97"><img src="https://avatars.githubusercontent.com/JunJI97" width="130px;" alt=""></a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/rnrudejr9"><b>구경덕</b></a></td>
     <td align="center"><a href="https://github.com/SeokJuGo"><b>고석주</b></a></td>
-    <td align="center"><a href="https://github.com/jaea-kim"><b>김영진</b></a></td>
+    <td align="center"><a href="https://github.com/y0ungKim"><b>김영진</b></a></td>
     <td align="center"><a href="https://github.com/JunJI97"><b>지준영</b></a></td>
   </tr>
   <tr> 
@@ -41,7 +41,11 @@
 	    <ul><li>백준 기초 알고리즘 1,2, 중급 클리어하기</li></ul>
 	    <ul><li>골드1달성하기</li></ul>
     </td>
-    <td align="center"></td>
+    <td align="center">
+	    <ul><li>최적화 알고리즘 탐색(Big-O, 속도, 메모리)</li></ul>
+	    <ul><li>배운 것, 습득한 것 활용하여 구현해보기</li></ul>
+	    <ul><li>타인의 코드와 비교하여 개선하기</li></ul>
+    </td>
     <td align="center">
 	    <ul><li> 백준 골드 입성</li></ul>
 	    <ul><li> 주요 라이브러리 적응</li></ul>
