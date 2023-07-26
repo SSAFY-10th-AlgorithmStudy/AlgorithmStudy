@@ -10,10 +10,10 @@ import java.math.BigInteger;
 import java.util.StringTokenizer;
 
 public class P_팩토리얼0의개수_1676 {
-	 static int factorial(int n) {
-		 if (n<=1) return 1;
-		 return factorial(n-1)*n;
-	}
+	 // static int factorial(int n) {
+		 // if (n<=1) return 1;
+		 // return factorial(n-1)*n;
+	// }
 	public static void main(String[] args) throws IOException{
 	
 			System.setIn(new FileInputStream("src/java0723/res/input.txt"));
