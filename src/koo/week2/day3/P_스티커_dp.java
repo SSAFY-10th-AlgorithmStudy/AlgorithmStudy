@@ -45,9 +45,14 @@ public class P_스티커_dp {
 			return dp[x][y];
 		}
 		
-		int temp = (x+1)%2;
-			
-		dp[x][y] = Math.max(DP(temp,y-1), DP(temp,y-2))+ arr[x][y];
+		if(x == 1) {
+			dp[x][y] = Math.max(DP(0,y-1), DP(0,y-2))+ arr[x][y];
+		}else if(x == 0) {
+			dp[x][y] = Math.max(DP(1,y-1), DP(1,y-2))+ arr[x][y];
+		}
+		
+//		int temp = (x+1)%2;
+//		dp[x][y] = Math.max(DP(temp,y-1), DP(temp,y-2))+ arr[x][y];
 
 		return dp[x][y];
 	}
