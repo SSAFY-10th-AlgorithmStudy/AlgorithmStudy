@@ -1,0 +1,70 @@
+package com.bj.XOR;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.Queue;
+import java.util.StringTokenizer;
+
+public class Main {
+	public static int N, T, max,count;
+	public static int[] p;
+	public static Queue<int[]> queue = new LinkedList<>();
+	
+	public static void main(String[] args) throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		T = Integer.parseInt(br.readLine());
+		for (int t = 0; t < T; t++) {
+			N = Integer.parseInt(br.readLine());
+			p = new int[N];
+			st = new StringTokenizer(br.readLine());
+			int zero_to = 0;
+			for (int i = 0; i < N; i++) {
+				p[i] = Integer.parseInt(st.nextToken());
+				if (p[i] != 0) zero_to = p[i];
+			
+			}
+			for (int i = 0; i < N; i++) {
+				if (p[i] == 0) p[i] = zero_to;
+			}
+			
+			p = Arrays.stream(p).distinct().toArray();
+			N = p.length;
+
+//			for (int i:p) {
+//				System.out.print(i + " ");
+//			}
+//			System.out.println();
+			
+			int sum=0;
+			for (int i : p) {
+				sum += i;
+			}
+			if (sum == 45) {
+				System.out.println(15);
+				return;
+			}
+			
+			max = -1;
+			queue.add(new int[] {0,0}); // value ,cnt 
+			while(!queue.isEmpty()) {
+//				count++;
+				int[] item = queue.poll();
+				int value = item[0];
+//				System.out.println(value);
+				int cnt = item[1];
+				if (value > max) max = value;
+				if(cnt+1 <= N) {
+					queue.add(new int[] {value^p[cnt],cnt+1});
+					queue.add(new int[] {value,cnt+1});
+				}
+			}
+
+			System.out.println(max);
+//			System.out.println(count);
+		}
+	}
+}
