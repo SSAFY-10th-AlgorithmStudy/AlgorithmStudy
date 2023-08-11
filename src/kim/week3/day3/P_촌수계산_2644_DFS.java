@@ -39,6 +39,7 @@ public class P_촌수계산_2644_DFS {
 	}
 
 	static void search(byte one, byte step) {
+		if (cnt != -1) return;
 		if (one == target) {
 			cnt = step;
 			return;
