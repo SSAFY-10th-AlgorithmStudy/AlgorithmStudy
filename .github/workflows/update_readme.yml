@@ -17,6 +17,7 @@ jobs:
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
       with:
+        repo-token: ${{secrets.TOKEN}}
         python-version: "3.10"
     - name: Install dependencies
       run: |
@@ -29,6 +30,7 @@ jobs:
       env:
         GIT_EMAIL: ${{secrets.GIT_EMAIL}}
         GIT_NAME: ${{secrets.GIT_NAME}}
+        GITHUB_TOKEN: ${{secrets.TOKEN}}
       run: |
         git config --global user.name $GIT_NAME
         git config --global user.email $GIT_EMAIL
