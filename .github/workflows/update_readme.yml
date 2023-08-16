@@ -26,9 +26,12 @@ jobs:
       run: |
         python update-readme.py
     - name: Commit changes
+      env:
+        GIT_EMAIL: ${{secrets.GIT_EMAIL}}
+        GIT_NAME: ${{secrets.GIT_NAME}}
       run: |
-        git config --global user.name 'rnrudejr9'
-        git config --global user.email 'rnrudejr1234@naver.com'
+        git config --global user.name $GIT_NAME
+        git config --global user.email $GIT_EMAIL
         git add -A
         git commit -am "auto-update README.md"
     - name: Push changes
