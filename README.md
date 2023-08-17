@@ -13,7 +13,7 @@
  <tr>
     <td align="center"><a href="https://github.com/rnrudejr9"><img src="https://avatars.githubusercontent.com/rnrudejr9" width="130px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/SeokJuGo"><img src="https://avatars.githubusercontent.com/SeokJuGo" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/JunJI97"><img src="https://avatars.githubusercontent.com/y0ungKim" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/y0ungKim"><img src="https://avatars.githubusercontent.com/y0ungKim" width="130px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/JunJI97"><img src="https://avatars.githubusercontent.com/JunJI97" width="130px;" alt=""></a></td>
   </tr>
   <tr>
