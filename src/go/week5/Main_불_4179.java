@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-
+ 
 public class Test {
 	static int N, M;
 	static char[][] map;
