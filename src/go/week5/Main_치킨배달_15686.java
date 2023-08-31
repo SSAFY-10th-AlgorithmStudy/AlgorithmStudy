@@ -8,7 +8,15 @@ import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Main_치킨배달_15686 {
-
+/* 코드의 전체 적인 해석
+ * 1. BFS를 사용하지 않아도 되는걸 어렵게 풀었음..
+ * 2. 여러 개 중에 중복을 허용해도 되는 경우라 combination을 사용했다.
+ * 3. inner클래스를 사용했는데, 굳이 사용 안해도 된다. 하지만 코드의 가독성이 편해진다.
+ * 4. 먼저 이전에 풀었던 치즈 문제와 비슷하게 combination을 사용하고 copy.clone을 사용함으로써 초기화작업을 해줬다.
+ * 5. combi에서 치킨집의 위치를 불러온다.
+ * 6. 치킨집 기준으로 bfs를 사용해서 집의 위치를 더하고 더해준다.
+ * 7. 마지막으로 최소값인 것이 정답이다.
+ */
     static class Location {
         int r, c, dis;
 
